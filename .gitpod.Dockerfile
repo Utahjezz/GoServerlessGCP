@@ -8,4 +8,4 @@ USER gitpod
 # RUN sudo apt-get -q update && #     sudo apt-get install -yq bastet && #     sudo rm -rf /var/lib/apt/lists/*
 #
 # More information: https://www.gitpod.io/docs/config-docker/
-RUN npm install -g serverless
+RUN npm install -g serverless && npm install --save serverless-google-cloudfunctions
