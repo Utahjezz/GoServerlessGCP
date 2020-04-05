@@ -15,7 +15,8 @@
 # vendor/
 
 # Serverless
-.serverless
+.serverless/
+.node_modules/
 
 # Theia IDE
-.theia
+.theia/
